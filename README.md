@@ -16,9 +16,6 @@ And then execute:
 
     $ bundle install
 
-Or install it yourself as:
-
-    $ gem install rspec_pdf_matcher
 
 ## Usage
 
