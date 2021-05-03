@@ -19,7 +19,16 @@ And then execute:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+describe 'something' do
+  let(:path_a) { Pathname.new('/path/to/a.pdf') }
+  let(:path_b) { Pathname.new('/path/to/b.pdf') }
+
+  it 'something' do
+    expect(path_a).to match_pdf(path_b)
+  end
+end
+```
 
 ## Development
 
